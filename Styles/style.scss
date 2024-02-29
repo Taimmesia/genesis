@@ -1,0 +1,17 @@
+h1 {
+  padding-top: 24px;
+  text-align: start;
+  color: #111111;
+}
+
+.navlist {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+&:li {
+  float: left;
+}
+&:ul {
+  list-style-type: none;
+}

@@ -24,6 +24,10 @@
 
 li {
   padding: 20px;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 p {

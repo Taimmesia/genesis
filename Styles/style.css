@@ -26,6 +26,9 @@
 li {
   padding: 20px;
 }
+li:hover {
+  text-decoration: underline;
+}
 
 p {
   max-width: 635px;

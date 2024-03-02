@@ -1,3 +1,7 @@
+* {
+  font-family: "Mulish", sans-serif;
+}
+
 h1 {
   padding-top: 24px;
   text-align: start;
@@ -11,8 +15,14 @@ h1 {
 }
 
 .navlist ul {
+  display: flex;
+  justify-content: space-between;
   list-style-type: none;
   float: left;
+}
+
+li {
+  padding: 20px;
 }
 
 p {
@@ -108,4 +118,11 @@ span {
 .grid-item-12 {
   grid-row: 26/32;
   grid-column: 7/10;
+}
+
+.icon {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
 }/*# sourceMappingURL=style.css.map */

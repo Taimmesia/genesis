@@ -217,4 +217,26 @@ h2 {
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0;
+}
+
+.project-list {
+  display: inline-block;
+  position: relative;
+  left: 100px;
+}
+
+.pro {
+  display: inline-block;
+}
+
+.walking-img {
+  width: 1110px;
+  width: 100%;
+  min-height: 660px;
+}
+
+.bottom-images {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }/*# sourceMappingURL=style.css.map */

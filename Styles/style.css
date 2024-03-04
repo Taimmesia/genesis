@@ -239,4 +239,43 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 30px;
+}
+
+/* CONTACT PAGE*/
+form {
+  max-width: 475px;
+  width: 100%;
+  min-height: 291px;
+}
+
+input[type=text],
+input[type=email] {
+  width: 475px;
+  padding: 12px 20px;
+  margin-left: 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.message-area {
+  padding: 12px 20px;
+  margin: 0;
+  box-sizing: border-box;
+  border-bottom: 1px #d8d8d8;
+}
+
+button {
+  text-align: center;
+  width: 125px;
+  height: 50px;
+  margin-top: 20px;
+  padding: 10px 10px;
+  background-color: #4a4ff2;
+  border: none;
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

@@ -57,6 +57,26 @@ span {
   color: #4a4ff2;
 }
 
+.quote {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.quote::after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: #d8d8d8;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
 .grid-container {
   max-width: 1110px;
   margin: 0 auto;
@@ -151,8 +171,27 @@ span {
 }
 
 .awards {
+  width: 100%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
+  font-weight: bold;
+}
+
+.ui-kit {
+  max-width: 190px;
+  min-height: 104px;
+  position: relative;
+  left: -10px;
+}
+
+.awards-2 {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
 }
 
 .icon {

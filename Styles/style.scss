@@ -15,6 +15,7 @@
   font-weight: bold;
   font-size: 18px;
 }
+
 .navlist ul {
   display: flex;
   justify-content: space-between;
@@ -24,7 +25,6 @@
 
 li {
   padding: 20px;
-
   &:hover {
     text-decoration: underline;
   }
@@ -51,10 +51,9 @@ p {
   letter-spacing: 0;
   line-height: 60px;
   color: #111111;
-}
-
-span {
-  color: #4a4ff2;
+  & span {
+    color: #4a4ff2;
+  }
 }
 
 .quote {
@@ -63,18 +62,17 @@ span {
   align-items: flex-end;
   justify-content: flex-end;
   position: relative;
-}
-
-.quote::after {
-  content: "";
-  display: inline-block;
-  width: 30px;
-  height: 2px;
-  background-color: #d8d8d8;
-  position: absolute;
-  top: -15px;
-  left: 0;
-  transform: translate(0, -50%);
+  & .quote::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background-color: #d8d8d8;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    transform: translate(0, -50%);
+  }
 }
 
 .grid-container {
@@ -187,7 +185,6 @@ span {
 .awards-2 {
   width: 100%;
   height: 100%;
-  margin: auto;
   display: flex;
   justify-content: space-around;
   font-weight: bold;
@@ -204,6 +201,8 @@ span {
 h2 {
   max-width: 635px;
   min-height: 222px;
+  position: relative;
+  left: 100px;
   font-size: 40px;
   font-weight: bold;
   line-height: 55px;
@@ -219,13 +218,20 @@ h2 {
 }
 
 .project-list {
-  display: inline-block;
-  position: relative;
-  left: 100px;
+  max-width: 335px;
+  width: 100%;
+  min-height: 343px;
+  display: inline-flex;
 }
 
 .pro {
-  display: inline-block;
+  float: right;
+  position: relative;
+  right: 100px;
+}
+
+.pro-1 {
+  float: left;
 }
 
 .walking-img {
@@ -246,6 +252,7 @@ form {
   max-width: 475px;
   width: 100%;
   min-height: 291px;
+  float: right;
 }
 
 input[type="text"],
@@ -255,15 +262,13 @@ input[type="email"] {
   margin-left: 0;
   box-sizing: border-box;
   border-bottom: 1px solid #d8d8d8;
+  & .message-area {
+    padding: 12px 20px;
+    margin: 0;
+    box-sizing: border-box;
+    border-bottom: 1px #d8d8d8;
+  }
 }
-
-.message-area {
-  padding: 12px 20px;
-  margin: 0;
-  box-sizing: border-box;
-  border-bottom: 1px #d8d8d8;
-}
-
 button {
   text-align: center;
   width: 125px;
@@ -275,7 +280,9 @@ button {
   color: #ffffff;
 }
 
-button:hover {
-  background-color: black;
-  color: white;
+.img-centre {
+  max-width: 1110px;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 570px;
 }

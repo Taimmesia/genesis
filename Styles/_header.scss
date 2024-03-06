@@ -6,16 +6,13 @@
 }
 
 .navlist {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  @include flexEnd();
   font-weight: bold;
   font-size: 18px;
 }
 
 .navlist ul {
-  display: flex;
-  justify-content: space-between;
+  @include spaceBtwn();
   list-style-type: none;
   float: left;
 }
@@ -29,7 +26,6 @@ li {
 
 .icon {
   padding: 20px;
-  display: flex;
-  justify-content: space-between;
+  @include spaceBtwn();
   font-size: 30px;
 }

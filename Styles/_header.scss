@@ -1,0 +1,35 @@
+/* AND FOOTER*/
+
+.logo {
+  padding-top: 24px;
+  text-align: start;
+}
+
+.navlist {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navlist ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  float: left;
+}
+
+li {
+  padding: 20px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.icon {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}

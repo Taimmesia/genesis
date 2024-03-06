@@ -1,18 +1,4 @@
-@mixin flexEnd() {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-@mixin spaceBtwn() {
-  display: flex;
-  justify-content: space-between;
-}
-
-@mixin relative100() {
-  position: relative;
-  left: 100px;
-}
-
+@import "./mixin";
 @import "./variables";
 @import "./header";
 @import "./main";
